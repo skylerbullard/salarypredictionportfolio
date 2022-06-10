@@ -27,3 +27,5 @@ milesFromMetropolis - quantitative value, distance from company works for
 ## step 2) find potential outliers
 
 I used the Interquartile Range (IQR) rule to locate potential outliers that fall out of upper and lower bounds. The zero salary entries are not volunteer positions. These are instances of missing/corrupt data. Zero salary jobs will be removed from the dataset. The high-salary potential outliers appear to be legitimate. C-level executives are in high salaried industries. The junior roles are in the same high salaried industries (oil, finance). These potential outliers will remain. 
+
+## note: preparing for modeling - the target attribute is salary (a number), which is not a category so classification may not be the best appproach; rather a regression model may be better.
