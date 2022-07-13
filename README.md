@@ -30,6 +30,10 @@ I used the Interquartile Range (IQR) rule to locate potential outliers that fall
 
 ## step 3) exploratory data analysis
 
-out of all features: jobType has the highest correlation to target. degree places second. yearsExperience and major place third each with the same correlation average to target.
+out of all features: jobType has the highest correlation to target. degree places second. yearsExperience and major place third each with the same correlation average to target. 
+
+## step 4) pre-processing
+
+a general idea of the dataset is made. next steps to complete pre-processing...
 
 ### note: in preparation for modeling - the target attribute is salary (a number), which is not categorical so classification algorithms may not be first choice; rather a regression model, or some other supervised models, will help model induction.
